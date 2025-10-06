@@ -1,8 +1,6 @@
 use clap::Parser;
 use regex::Regex;
 use std::{
-    io,
-    io::BufRead,
     process,
     process::{Command, Stdio},
 };
